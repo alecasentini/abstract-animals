@@ -1,14 +1,6 @@
-package org.java.animals;
+package org.java.animals.abs;
 
-interface IVolante {
-    public void vola();
-}
-
-interface INuotante {
-    void nuota();
-}
-
-abstract class Animale {
+public abstract class Animale {
     public void dormi() {
         System.out.println("Zzz");
     }

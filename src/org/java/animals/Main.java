@@ -1,6 +1,13 @@
 package org.java.animals;
 
 public class Main {
+	public interface IVolante {
+	    public void vola();
+	}
+
+	public interface INuotante {
+	    void nuota();
+	}
 	
 	static void faiVolare(IVolante animale) {
         animale.vola();
