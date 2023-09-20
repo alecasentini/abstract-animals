@@ -12,26 +12,26 @@ public class Main {
     
     public static void main(String[] args) {
         Cane cane = new Cane();
-        cane.dormi();
         cane.verso();
         cane.mangia();
+        cane.dormi();
 
         Passerotto passerotto = new Passerotto();
         passerotto.verso();
         passerotto.mangia();
-        Main.faiVolare(passerotto);
+        faiVolare(passerotto);
         passerotto.dormi();
 
         Delfino delfino = new Delfino();
         delfino.verso();
         delfino.mangia();
-        Main.faiNuotare(delfino);
+        faiNuotare(delfino);
         delfino.dormi();
 
         Aquila aquila = new Aquila();
         aquila.verso();
         aquila.mangia();
-        Main.faiVolare(aquila);
+        faiVolare(aquila);
         aquila.dormi();
         
     }
